@@ -1,0 +1,38 @@
+body {
+  background: rgba(100, 100, 150, 1);
+  font-family: 'Amatic SC', cursive;
+  color: #D3D3D3;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  position: relative;
+  top: -40px;
+}
+
+.left-books {
+  float: left;
+  width: 50%;
+  line-height: 70px;
+  font-size: 35px;
+  position: relative;
+  top: -55px;
+}
+
+.right-books {
+  float: right;
+  width: 50%;
+  line-height: 70px;
+  font-size: 35px;
+  position: relative;
+  top: -55px;
+}
+
+a {
+  color: #D3D3D3;
+}
+
+a visited {
+  color: #D3D3D3;
+}

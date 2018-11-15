@@ -1,50 +1,96 @@
 body {
-  background: rgba(100, 100, 150, 1);
   font-family: 'Amatic SC', cursive;
-  height: 100%;
-}
-
-* {
-  box-sizing:border-box;
-}
-
-.bg-image {
+  background: rgba(1, 1, 1, 1);
   background-image: url("bookshelves.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
-h1 {
+.header h1 {
   color: #D3D3D3;
   font-size: 50px;
   text-align: center;
 }
 
-h2 {
+.header h2 {
   color: #D3D3D3;
   text-align: center;
   font-size: 40px;
   line-height: 15px;
   position: relative;
-  top: -20px;
+  padding-top: -10px;
+}
+
+.header {
+  background-color: rgba(128,128,128,.7);
+  height: 115px;
+  position: relative;
+}
+
+.sidebar {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, .7);
+  position: fixed;
+}
+
+.nav {
+  color: #D3D3D3;
+  font-size: 35px;
+  line-height: 70px;
+  width: 25%;
 }
 
 .nav ul {
-  color: #D3D3D3;
-  font-size: 35px;
-  line-height: 80px;
-  width: 25%;
-  background: rgba(255, 255, 255, .3);
+  margin-bottom: 0px;
+
 }
 
 a {
   color: #D3D3D3;
 }
 
-a visited {
+a:visited {
   color: #D3D3D3;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  position: center;
+  margin-left: 360px;
+  font-size: 30px;
+}
+
+.btn-twitter {
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 15, 15, 15, 15;
+  width: 60px;
+  height: 40px;
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.btn-instagram {
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 15, 15, 15, 15;
+  width: 60px;
+  height: 40px;
+  background-color: #cd486b;
+  color: white;
+}
+
+.btn-facebook {
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 15, 15, 15, 15;
+  width: 60px;
+  height: 40px;
+  background-color: #3B5998;
+  color: white;
 }

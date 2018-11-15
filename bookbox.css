@@ -24,7 +24,14 @@ body {
 .header {
   background-color: rgba(128,128,128,.7);
   height: 115px;
-  position: relative;
+  position: center;
+}
+
+#social-buttons {
+  position: center;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 70px;
 }
 
 .sidebar {
@@ -40,7 +47,6 @@ body {
   line-height: 70px;
   width: 25%;
 }
-
 .nav ul {
   margin-bottom: 0px;
 
@@ -57,12 +63,6 @@ a:visited {
 a:hover {
   color: black;
   text-decoration: none;
-}
-
-.container {
-  position: center;
-  margin-left: 360px;
-  font-size: 30px;
 }
 
 .btn-twitter {

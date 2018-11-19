@@ -14,26 +14,31 @@ h1 {
   background-color: rgba(128,128,128,.7);
 }
 
-.left-books {
+#left-books {
   float: left;
-  width: 50%;
-  line-height: 70px;
+  width: 49%;
+  line-height: 50px;
   font-size: 35px;
   position: relative;
   top: -55px;
   background-color: rgba(128,128,128,.7);
+  border-right: 2px solid black; height: 100%;
 }
 
-.right-books {
+#right-books {
   float: right;
-  width: 50%;
-  line-height: 70px;
+  width: 49%;
+  line-height: 50px;
   font-size: 35px;
   position: relative;
   top: -55px;
   background-color: rgba(128,128,128,.7);
+  border-left: 2px solid black; height: 100%;
 }
-
+.description {
+  font-size: 20px;
+  margin-top: -20px;
+}
 a {
   color: #D3D3D3;
 }

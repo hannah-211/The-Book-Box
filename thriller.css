@@ -14,7 +14,7 @@ h1 {
   background-color: rgba(128,128,128,.7);
 }
 
-.left-books {
+#left-books {
   float: left;
   width: 50%;
   line-height: 70px;
@@ -24,7 +24,7 @@ h1 {
   background-color: rgba(128,128,128,.7);
 }
 
-.right-books {
+#right-books {
   float: right;
   width: 50%;
   line-height: 70px;

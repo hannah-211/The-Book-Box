@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Book Box</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel='stylesheet' href='css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="../contact.css">
+</head>
+
+<body>
+  <div class="nav">
+    <h2><a href="../index.html">Home</a><h2>
+    </div>
+    <h1>Contact</h1>
+
+<div id="form">
+    <fieldset>
+    <legend><u>Leave Reviews or Recommendations!</u></legend>
+
+    <p>
+      <label for="input">Name of novel</label>
+      <input type="text" id="input" placeholder="Name">
+    </p>
+
+    <p>
+      <label for="select">Genre</label>
+      <select id="select">
+        <option value="">Choose...</option>
+        <optgroup>
+          <option value="">Fantasy</option>
+          <option value="">Young Adult</option>
+          <option value="">Science Fiction</option>
+          <option value="">Romance</option>
+          <option value="">Thriller</option>
+          <option value="">Children's</option>
+          <option value="">Other</option>
+        </optgroup>
+      </select>
+    </p>
+
+    <p>
+      <label for="select">Type of Feedback</label>
+      <select id="select">
+        <option value="">Choose...</option>
+        <optgroup>
+          <option value="">Review</option>
+          <option value="">Recommendation</option>
+        </optgroup>
+      </select>
+    </p>
+
+    <p>
+      <label for="textarea">Comments</label>
+      <textarea id="textarea" rows="3"></textarea>
+    </p>
+
+
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+  </fieldset>
+  </div>
+  </body>
+  </html>

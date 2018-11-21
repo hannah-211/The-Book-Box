@@ -1,9 +1,24 @@
+
 body {
   font-family: 'Amatic SC', cursive;
   background: rgba(1, 1, 1, 1);
   background-image: url("bookshelves.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+
+.about {
+  font-size: 30px;
+  margin-left: 12.5%;
+  position: fixed;
+  margin-top: 25px;
+}
+
+.contact {
+  font-size: 30px;
+  margin-left: 87.5%;
+  position: fixed;
+  margin-top: 25px;
 }
 
 .header h1 {

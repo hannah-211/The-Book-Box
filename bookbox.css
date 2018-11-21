@@ -110,3 +110,13 @@ a:hover {
   background-color: #3B5998;
   color: white;
 }
+
+#video {
+  width: cover;
+  height: cover;
+}
+
+.interview {
+  margin-left: 30%;
+  padding-right: 25%;
+}
